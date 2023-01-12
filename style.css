@@ -1,67 +1,66 @@
 * {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    background: black;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  background: black;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-    color: beige;
-    text-decoration: none;
-    margin-left: 20px;
+  color: beige;
+  text-decoration: none;
+  margin-left: 20px;
 }
 
 li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 20px;
-    color: beige;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  color: beige;
 }
 
 li:hover {
-    color: blue;
+  color: blue;
 }
 
 .body {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 img {
-    height: 100vh;
+  height: 100vh;
 }
 
-
 .title {
-    color: #F55800;
-    font-size: 50px;
-    margin: 50px;
+  color: #f55800;
+  font-size: 50px;
+  margin: 50px;
 }
 
 .sub {
-    color: #F55800;
-    font-size: 30px;
-    margin: 50px;
+  color: #f55800;
+  font-size: 30px;
+  margin: 50px;
 }
 
 .intro {
-    color: white;
-    margin: 50px;
+  color: white;
+  margin: 50px;
 }
 
 .p {
-    color: white;
-    margin: 50px;
-    width: 50%;
-    height: 50%;
-    flex-direction: column;
+  color: white;
+  margin: 50px;
+  width: 50%;
+  height: 50%;
+  flex-direction: column;
 }
