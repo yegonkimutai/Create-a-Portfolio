@@ -67,7 +67,7 @@ img {
 .title {
   color: #f55800;
   margin: 50px;
-  font-family: 'sans-serif';
+  font-style: roboto;
   font-weight: 400;
   font-size: 72px;
 }
@@ -75,7 +75,7 @@ img {
 .intro {
   color: #fff;
   margin: 50px;
-  font-family: 'sans-serif';
+  font-style: roboto;
   font-weight: 500;
   font-size: 32px;
 }
@@ -86,7 +86,7 @@ img {
   width: 50%;
   height: 50%;
   flex-direction: column;
-  font-family: 'sans-serif';
+  font-style: roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -126,7 +126,7 @@ img {
     cursor: pointer;
   }
 
-  .menu { 
+  .menu {
     display: none;
     }
 
