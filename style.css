@@ -4,36 +4,64 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  background: black;
 }
 
-nav {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background: #3E3C3C;
+    width: 100%;
+    height: 50px;
+  }
+  
+
+.menu {
+  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+
 }
+
+.h-menu {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 5px;
+  margin: 5px auto;
+  background-color: white;
+}
+
 
 .logo {
-  color: beige;
-  text-decoration: none;
-  margin-left: 20px;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  margin: 10px;
+  font-size: 20px;
+  padding: 0;
 }
 
 li {
   list-style-type: none;
   display: inline-block;
-  padding: 10px 20px;
-  color: beige;
+  color: #CFCFCF;
+  padding: 0px 30px;
 }
 
 li:hover {
   color: blue;
+  cursor: pointer;
 }
 
 .body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: black;
 }
 
 img {
@@ -44,23 +72,74 @@ img {
   color: #f55800;
   font-size: 50px;
   margin: 50px;
+  font-family: 'Crete Round';
+  font-weight: 400;
+  font-size: 72px;
 }
 
-.sub {
-  color: #f55800;
-  font-size: 30px;
-  margin: 50px;
-}
 
 .intro {
-  color: white;
+  color: #FFFFFF;
   margin: 50px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 32px;
 }
 
 .p {
-  color: white;
+  color: #F4F5F7;
   margin: 50px;
   width: 50%;
   height: 50%;
   flex-direction: column;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
 }
+
+.icon {
+  background: black;
+  display: flex;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.i {
+  margin: 0;
+}
+
+@media all and (max-width:500px) {
+  nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+  .h-menu {
+    display: block;
+    margin: 10px;
+    justify-content: flex-end;
+  }
+  .bar:hover {
+    color: blue;
+    cursor: pointer;
+  }
+  .menu { 
+    display: none;
+  }
+
+  nav.menu{
+    display: none;
+  }
+
+  .p {
+    width: 80%;
+  }
+  
+}
+
