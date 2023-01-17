@@ -100,18 +100,20 @@ image {
 }
 
 .icon {
-  display: flex;
   font-size: 20px;
-  padding-bottom: 20px;
+  color: white;
+  margin: 5%;
+  margin-top: 0;
+}
+
+.i {
+  padding: 1%;
+  padding-bottom: 0;
 }
 
 .icon:hover {
   cursor: pointer;
   color: blue;
-}
-
-.i {
-  margin: 0;
 }
 
 @media all and (max-width: 600px) {
@@ -146,6 +148,6 @@ image {
   }
 
   .p {
-    width: 80%;
+    width: 60%;
   }
 }
