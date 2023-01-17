@@ -92,6 +92,9 @@ img {
   font-size: 20px;
 }
 
+image {
+  justify-content: flex-end;
+}
 .icon {
   background: black;
   display: flex;
