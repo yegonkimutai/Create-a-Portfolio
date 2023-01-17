@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "hint": "^7.1.3"
+  },
+  "name": "create-a-portfolio",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)\r <a name=\"readme-top\"></a>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yegonkimutai/Create-a-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yegonkimutai/Create-a-Portfolio/issues"
+  },
+  "homepage": "https://github.com/yegonkimutai/Create-a-Portfolio#readme"
+}

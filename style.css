@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #3e3c3c;
+  width: 100%;
+  height: 50px;
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.h-menu {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 5px;
+  margin: 5px auto;
+  background-color: white;
+}
+
+.logo {
+  color: #fff;
+  font-style: roboto;
+  font-weight: 700;
+  margin: 10px;
+  font-size: 20px;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  color: #cfcfcf;
+  padding: 30px;
+}
+
+li:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  background-image: url(./Illustration-headerJPG.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+img {
+  height: 100vh;
+}
+
+.title {
+  color: #f55800;
+  margin: 50px;
+  font-style: roboto;
+  font-weight: 400;
+  font-size: 72px;
+}
+
+.intro {
+  color: #fff;
+  margin: 50px;
+  font-style: roboto;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.p {
+  color: #f4f5f7;
+  margin: 50px;
+  width: 50%;
+  height: 50%;
+  flex-direction: column;
+  font-style: roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+image {
+  justify-content: flex-end;
+}
+
+.icon {
+  font-size: 20px;
+  color: white;
+  margin: 5%;
+  margin-top: 0;
+}
+
+.i {
+  padding: 1%;
+  padding-bottom: 0;
+  font-size: 20px;
+}
+
+.b {
+  color: white;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+@media all and (max-width: 600px) {
+  nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+
+  .body {
+    background-size: 30%;
+    background-position: right bottom;
+  }
+
+  .h-menu {
+    display: block;
+    margin: 10px;
+    justify-content: flex-end;
+  }
+
+  .bar:hover {
+    color: blue;
+    cursor: pointer;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  nav.menu {
+    display: none;
+  }
+
+  .p {
+    width: 60%;
+  }
+}
