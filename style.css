@@ -57,7 +57,10 @@ li:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: black;
+  background-color: black;
+  background-image: url(./Illustration-headerJPG.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 img {
@@ -97,7 +100,6 @@ image {
 }
 
 .icon {
-  background: black;
   display: flex;
   font-size: 20px;
   padding-bottom: 20px;
@@ -112,11 +114,16 @@ image {
   margin: 0;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
   nav {
     display: flex;
     position: relative;
     justify-content: space-between;
+  }
+
+  .body {
+    background-size: 30%;
+    background-position: right bottom; 
   }
 
   .h-menu {
