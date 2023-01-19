@@ -70,7 +70,7 @@ img {
 .title {
   color: #f55800;
   margin: 50px;
-  font-style: roboto;
+  font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 72px;
 }
@@ -78,7 +78,7 @@ img {
 .intro {
   color: #fff;
   margin: 50px;
-  font-style: roboto;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 32px;
 }
@@ -89,7 +89,7 @@ img {
   width: 50%;
   height: 50%;
   flex-direction: column;
-  font-style: roboto;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -119,6 +119,301 @@ image {
 .icon:hover {
   cursor: pointer;
   color: blue;
+}
+
+.page-1 {
+  display: grid;
+  margin: 50px;
+  min-height: 100vh;
+  gap: 30px;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 10% 30% 30% 30%;
+  grid-template-areas:
+  'header header header'
+  'gridp gridp grid1'
+  'grid2 grid3 grid4'
+  'grid5 grid6 grid7'
+}
+
+.header {
+  display: flex;
+  /* border-bottom: 1px solid #212121; */
+  justify-content: center;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  grid-area: header;
+}
+
+.grid-p {
+  background-image: url(./Img\ Placeholder.png);
+  background-repeat: no-repeat;
+  height: 237px;
+  width: 327px;
+  left: 24px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+
+.grid-1 {
+  background-size: 30%;
+  grid-area: gridp grid1;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 237px;
+  width: 327px;
+  left: 24px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.grid-2 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./Img\ Placeholder\ 2.png);
+  background-repeat: no-repeat;
+  grid-area: grid2;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 327px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.grid-3 {
+  display: flex;
+  background-image: url(./Img\ Placeholder\ 2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  grid-area: grid3;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 327px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.grid-4 {
+  display: flex;
+  background-image: url(./Img\ Placeholder\ 2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  grid-area: grid4;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 327px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.grid-5 {
+  display: flex;
+  background-image: url(./Img\ Placeholder\ 2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  grid-area: grid5;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 327px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.grid-6 {
+    display: flex;
+    background-image: url(./Img\ Placeholder\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: grid6;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 327px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.grid-7 {
+    display: flex;
+    background-image: url(./Img\ Placeholder\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: grid7;
+    height: 300px;
+    width: 327px;
+    left: 20px;
+    top: 0px;
+    border-radius: 0px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link-1 {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 61px;
+  left: 175px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.link-- {
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  border: 2px solid grey;
+  margin: 5px;
+  margin-left: 10%;
+  padding: 10%;
+  background-color: grey;
+}
+
+.link--1 {
+  color: #091E42;
+  border: 1px solid #8993A4;
+  margin: 5px;
+  padding: 10%;
+  font-size: 15px;
+  font-family: inter;
+}
+
+.header-2 {
+  font-family: 'Crete Round';
+  color: #fff;
+  font-size: 30px;
+  margin-left: 10%;
+}
+
+.p-2 {
+  font-family: 'inter';
+  color: #fff;
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+.head-1 {
+  font-family: 'Crete Round';
+  font-size: 25px;
+}
+
+.p-1 {
+  font-family: 'inter';
+  font-weight: 400;
+}
+
+.about {
+  background-color: #262626;
+  background-image: url(./Group.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100%;
+  padding-top: 20%;
+}
+
+.ab {
+  color: #F55800;
+  margin-left: 20px;
+  font-size: 40px;
+  font-family: 'crete round';
+}
+
+.pb {
+  color: #F4F5F7;;
+  font-family: 'inter';
+  font-size: 20px;
+  margin-left: 20px;
+  width: 60%;
+  height: 60%;
+}
+
+.l {
+  width: 80%;
+  height: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F55800;
+}
+
+.l-2 {
+  width: 80%;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+.footer-- {
+  border: 1px solid #F55800;
+  width: 35%;
+  color: #fff;
+  background-color: #f55800;
+  font-family: 'inter';
+}
+
+.footer--:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.footer {
+  display: flex;
+  border: 10px solid #F55800;
+  background-color: #F55800;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: 'inter';
+  color: #fff;
+}
+
+.cont h3 {
+  color: #fff;
+  font-family: 'crete round';
+  font-size: 40px;
+}
+
+.fm {
+  color: #fff;
+  font-family: 'inter';
+  font-size: 20px;
+}
+
+.footer:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.footer-a {
+ padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fm {
+  display: flex;
+  flex-direction: column;
 }
 
 @media all and (max-width: 600px) {
@@ -154,5 +449,35 @@ image {
 
   .p {
     width: 60%;
+  }
+
+  .page-1 {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas:
+    'header'
+    'gridp'
+    'grid1'
+    'grid2'
+    'grid3'
+    'grid4'
+    'grid5'
+    'grid6'
+    'grid7'
+  }
+
+  .about {
+    background-size: 40%;
+    margin-bottom: 50px;
+    background-position: right 13%;
+  }
+
+  .footer-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
   }
 }
