@@ -129,17 +129,17 @@ image {
   grid-template-columns: 33.33% 33.33% 33.33%;
   grid-template-rows: 10% 30% 30% 30%;
   grid-template-areas:
-  'header header header'
-  'gridp gridp grid1'
-  'grid2 grid3 grid4'
-  'grid5 grid6 grid7';
+    'header header header'
+    'gridp gridp grid1'
+    'grid2 grid3 grid4'
+    'grid5 grid6 grid7';
 }
 
 .header {
   display: flex;
   justify-content: center;
   font-family: 'Crete Round';
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
@@ -181,7 +181,6 @@ image {
   display: flex;
   background-image: url(./Img\ Placeholder\ 2.png);
   background-repeat: no-repeat;
-  background-size: 100%;
   grid-area: grid3;
   background-size: cover;
   flex-direction: column;
@@ -194,7 +193,6 @@ image {
   display: flex;
   background-image: url(./Img\ Placeholder\ 2.png);
   background-repeat: no-repeat;
-  background-size: 100%;
   grid-area: grid4;
   background-size: cover;
   flex-direction: column;
@@ -207,7 +205,6 @@ image {
   display: flex;
   background-image: url(./Img\ Placeholder\ 2.png);
   background-repeat: no-repeat;
-  background-size: 100%;
   grid-area: grid5;
   background-size: cover;
   flex-direction: column;
@@ -217,30 +214,29 @@ image {
 }
 
 .grid-6 {
-    display: flex;
-    background-image: url(./Img\ Placeholder\ 2.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    grid-area: grid6;
-    background-size: cover;
-    flex-direction: column;
-    justify-content: center;
-    height: 300px;
-    width: 327px;
+  display: flex;
+  background-image: url(./Img\ Placeholder\ 2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  grid-area: grid6;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 327px;
 }
 
 .grid-7 {
-    display: flex;
-    background-image: url(./Img\ Placeholder\ 2.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    grid-area: grid7;
-    height: 300px;
-    width: 327px;
-    left: 20px;
-    top: 0px;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  background-image: url(./Img\ Placeholder\ 2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  grid-area: grid7;
+  height: 300px;
+  width: 327px;
+  left: 20px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .link-1 {
@@ -249,14 +245,11 @@ image {
   height: 40px;
   width: 61px;
   left: 175px;
-  top: 0px;
-  border-radius: 0px;
 }
 
 .link-- {
-  color: #FFFFFF;
+  color: #FFF;
   font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   border: 2px solid grey;
@@ -267,16 +260,16 @@ image {
 }
 
 .link--1 {
-  color: #091E42;
-  border: 1px solid #8993A4;
+  color: #091e42;
+  border: 1px solid #8993a4;
   margin: 5px;
   padding: 10%;
   font-size: 15px;
-  font-family: inter;
+  font-family: 'inter';
 }
 
 .header-2 {
-  font-family: 'Crete Round';
+  font-family: 'crete round';
   color: #fff;
   font-size: 30px;
   margin-left: 10%;
@@ -309,7 +302,7 @@ image {
 }
 
 .ab {
-  color: #F55800;
+  color: #f55800;
   margin-left: 20px;
   font-size: 40px;
   font-family: 'crete round';
@@ -373,6 +366,8 @@ image {
   color: #fff;
   font-family: 'inter';
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer:hover {
@@ -385,11 +380,6 @@ image {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.fm {
-  display: flex;
-  flex-direction: column;
 }
 
 @media all and (max-width: 600px) {
@@ -433,15 +423,15 @@ image {
     grid-template-columns: 100%;
     grid-template-rows: 100%;
     grid-template-areas:
-    'header'
-    'gridp'
-    'grid1'
-    'grid2'
-    'grid3'
-    'grid4'
-    'grid5'
-    'grid6'
-    'grid7'
+        'header'
+        'gridp'
+        'grid1'
+        'grid2'
+        'grid3'
+        'grid4'
+        'grid5'
+        'grid6'
+        'grid7';
   }
 
   .about {
