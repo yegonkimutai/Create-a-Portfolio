@@ -132,12 +132,11 @@ image {
   'header header header'
   'gridp gridp grid1'
   'grid2 grid3 grid4'
-  'grid5 grid6 grid7'
+  'grid5 grid6 grid7';
 }
 
 .header {
   display: flex;
-  /* border-bottom: 1px solid #212121; */
   justify-content: center;
   font-family: 'Crete Round';
   font-style: normal;
@@ -153,13 +152,9 @@ image {
   height: 237px;
   width: 327px;
   left: 24px;
-  top: 0px;
-  border-radius: 0px;
 }
 
-
 .grid-1 {
-  background-size: 30%;
   grid-area: gridp grid1;
   background-size: cover;
   display: flex;
@@ -168,13 +163,10 @@ image {
   height: 237px;
   width: 327px;
   left: 24px;
-  top: 0px;
-  border-radius: 0px;
 }
 
 .grid-2 {
   display: flex;
-  flex-direction: column;
   background-image: url(./Img\ Placeholder\ 2.png);
   background-repeat: no-repeat;
   grid-area: grid2;
@@ -183,9 +175,6 @@ image {
   justify-content: center;
   height: 300px;
   width: 327px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
 }
 
 .grid-3 {
@@ -199,9 +188,6 @@ image {
   justify-content: center;
   height: 300px;
   width: 327px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
 }
 
 .grid-4 {
@@ -215,9 +201,6 @@ image {
   justify-content: center;
   height: 300px;
   width: 327px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
 }
 
 .grid-5 {
@@ -231,9 +214,6 @@ image {
   justify-content: center;
   height: 300px;
   width: 327px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
 }
 
 .grid-6 {
@@ -247,9 +227,6 @@ image {
     justify-content: center;
     height: 300px;
     width: 327px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
 }
 
 .grid-7 {
@@ -262,7 +239,6 @@ image {
     width: 327px;
     left: 20px;
     top: 0px;
-    border-radius: 0px;
     flex-direction: column;
     justify-content: center;
 }
