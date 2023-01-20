@@ -110,6 +110,7 @@ image {
   padding: 1%;
   padding-bottom: 0;
   font-size: 20px;
+  margin: 1px;
 }
 
 .b {
@@ -119,6 +120,7 @@ image {
 .icon:hover {
   cursor: pointer;
   color: blue;
+  transform: rotateY(15deg);
 }
 
 .page-1 {
@@ -321,6 +323,7 @@ image {
   height: 3px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
   background-color: #f55800;
 }
 
@@ -335,6 +338,7 @@ image {
 .footer--:hover {
   cursor: pointer;
   color: blue;
+  transform: rotateY(15deg);
 }
 
 .footer {
@@ -364,6 +368,31 @@ image {
 .footer:hover {
   cursor: pointer;
   color: blue;
+  transform: rotateY(15deg);
+}
+
+.link--1:hover {
+  transform: rotateY(20deg);
+}
+
+.link--:hover {
+  transform: rotateY(20deg);
+}
+
+.btn-ab {
+  margin-left: 30px;
+  border: 1px solid #f55800;
+  font-size: 20px;
+  width: 200px;
+  height: 30px;
+  background-color: #f55800;
+  color: white;
+}
+
+.btn-ab:hover {
+  color: blue;
+  cursor: pointer;
+  transform: rotateY(20deg);
 }
 
 .footer-a {
@@ -373,7 +402,7 @@ image {
   justify-content: center;
 }
 
-@media all and (max-width: 600px) {
+@media (max-width: 600px) {
   nav {
     display: flex;
     position: relative;
@@ -394,6 +423,7 @@ image {
   .bar:hover {
     color: blue;
     cursor: pointer;
+    transform: rotateX(15deg);
   }
 
   .menu {
