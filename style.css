@@ -126,10 +126,10 @@ image {
 .page-1 {
   display: grid;
   margin: 50px;
-  min-height: 100vh;
-  gap: 30px;
-  grid-template-columns: 33.33% 33.33% 33.33%;
-  grid-template-rows: 10% 30% 30% 30%;
+  height: 100%;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
     'header header header'
     'gridp gridp grid1'
@@ -441,8 +441,8 @@ image {
   .page-1 {
     display: grid;
     gap: 30px;
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
       'header'
       'gridp'
