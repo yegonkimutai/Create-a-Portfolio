@@ -34,7 +34,7 @@ nav {
 
 .logo {
   color: #fff;
-  font-style: roboto;
+  font-family: 'Crete Round',serif;
   font-weight: 700;
   margin: 10px;
   font-size: 20px;
@@ -72,7 +72,7 @@ img {
   margin: 50px;
   font-family: 'Crete Round', serif;
   font-weight: 400;
-  font-size: 72px;
+  font-size: 50px;
 }
 
 .intro {
@@ -80,14 +80,12 @@ img {
   margin: 50px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 20px;
 }
 
 .p {
   color: #f4f5f7;
   margin: 50px;
-  width: 50%;
-  height: 50%;
   flex-direction: column;
   font-family: 'Inter', sans-serif;
   font-style: normal;
