@@ -304,8 +304,8 @@ image {
 
 .ab {
   color: #f55800;
-  margin-left: 20px;
-  font-size: 40px;
+  text-align: center;
+  font-size: 60px;
   font-family: 'Crete Round', serif;
 }
 
@@ -314,8 +314,6 @@ image {
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   margin-left: 20px;
-  width: 60%;
-  height: 60%;
 }
 
 .l {
@@ -323,7 +321,7 @@ image {
   height: 3px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 150px;
   background-color: #f55800;
 }
 
@@ -383,8 +381,9 @@ image {
   margin-left: 30px;
   border: 1px solid #f55800;
   font-size: 20px;
+  margin-top: 40px;
   width: 200px;
-  height: 30px;
+  height: 50px;
   background-color: #f55800;
   color: white;
 }
@@ -458,7 +457,7 @@ image {
   .about {
     background-size: 40%;
     margin-bottom: 50px;
-    background-position: right 13%;
+    background-position: right 22%;
   }
 
   .footer-a {
